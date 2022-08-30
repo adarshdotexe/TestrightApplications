@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "572860524616",
+    "project_id": "delhi-jal-board-testright",
+    "storage_bucket": "delhi-jal-board-testright.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572860524616:android:439fdee23f497cfb09d07d",
+        "android_client_info": {
+          "package_name": "com.example.water_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572860524616-kpl98c8frcevinf536mvahajueplatcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc3JY-7way7mga_6V5Y8IIMIheEiVHRHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572860524616-kpl98c8frcevinf536mvahajueplatcg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "572860524616-btu9hbp2prbptfi4ua7ni4cnlg4op6a6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.waterTest"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572860524616:android:94f5b278b83f1e5209d07d",
+        "android_client_info": {
+          "package_name": "in.testright.water_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572860524616-kpl98c8frcevinf536mvahajueplatcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc3JY-7way7mga_6V5Y8IIMIheEiVHRHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572860524616-kpl98c8frcevinf536mvahajueplatcg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "572860524616-btu9hbp2prbptfi4ua7ni4cnlg4op6a6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.waterTest"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572860524616:android:d79a4f3173437fea09d07d",
+        "android_client_info": {
+          "package_name": "in.testright.watertest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572860524616-kpl98c8frcevinf536mvahajueplatcg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc3JY-7way7mga_6V5Y8IIMIheEiVHRHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572860524616-kpl98c8frcevinf536mvahajueplatcg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "572860524616-btu9hbp2prbptfi4ua7ni4cnlg4op6a6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.waterTest"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

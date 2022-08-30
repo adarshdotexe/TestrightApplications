@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.ConcFirstFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/text_Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Program"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/txt_question"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_width="wrap_content"
+            app:boxBackgroundColor="@color/white"
+            android:layout_height="50dp"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btn_conc_delete"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="16sp"
+                android:text="Create new"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/btn_conc_delete"
+            android:layout_width="35dp"
+            android:layout_height="0dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_delete"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="8dp">
+
+        <TextView
+            style="@style/text_Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Name" />
+
+        <EditText
+            android:id="@+id/conc_edt1"
+            style="@style/edt_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:inputType="text"
+            android:maxWidth="150dp"
+            android:minWidth="80dp"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="6dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="8dp">
+
+        <TextView
+            style="@style/text_Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="λ" />
+
+        <EditText
+            android:id="@+id/conc_edt2"
+            style="@style/edt_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:maxWidth="150dp"
+            android:minWidth="80dp"
+            android:paddingVertical="6dp"
+            android:paddingHorizontal="12dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="8dp">
+
+        <TextView
+            style="@style/text_Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Known conc." />
+
+        <EditText
+            android:id="@+id/conc_edt3"
+            style="@style/edt_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:maxWidth="150dp"
+            android:minWidth="80dp"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="6dp" />
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/conc_checkbox"
+        style="@style/text_Theme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layoutDirection="rtl"
+        android:text="Print Message" />
+
+    <LinearLayout
+        android:id="@+id/layout_print"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EFEFEF"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp">
+
+            <TextView
+                style="@style/text_Theme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@id/layout"
+                android:text="Condition: if Abs/count"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/layout"
+                android:layout_alignParentEnd="true">
+
+                <TextSwitcher
+                    android:id="@+id/txt_relation"
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/black_light"
+                    android:textColor="@color/white"
+                    android:inAnimation="@android:anim/slide_in_left"
+                    android:outAnimation="@android:anim/slide_out_right"/>
+
+                <EditText
+                    android:id="@+id/conc_abs_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:inputType="number"
+                    android:minWidth="70dp"
+                    android:hint="value"
+                    android:maxWidth="150dp"
+                    android:padding="6dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp">
+
+            <TextView
+                style="@style/text_Theme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:text="Print" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignParentEnd="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="if"
+                    android:textSize="16sp"
+                    android:layout_marginHorizontal="5dp"/>
+                <EditText
+                    android:id="@+id/conc_message_if"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/conc_edt_height"
+                    android:background="@color/white"
+                    android:inputType="text"
+                    android:maxWidth="90dp"
+                    android:paddingHorizontal="12dp"
+                    android:hint="message"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="else"
+                    android:textSize="16sp"
+                    android:layout_marginHorizontal="5dp"/>
+                <EditText
+                    android:id="@+id/conc_message_else"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/conc_edt_height"
+                    android:background="@color/white"
+                    android:inputType="text"
+                    android:maxWidth="90dp"
+                    android:hint="message"
+                    android:paddingHorizontal="12dp"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

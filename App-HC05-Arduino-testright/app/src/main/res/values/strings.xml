@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FluoroSpec</string>
+    <string name="msg_range">Value range between 0–40000</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="required">Required</string>
+</resources>

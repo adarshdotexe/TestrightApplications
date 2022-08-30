@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.DetailsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="8dp">
+
+        <TextView
+            style="@style/text_Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:text="nm"
+            android:textColor="@color/black_light"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/text_Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="abs/counts"
+            android:textColor="@color/black_light"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="8dp">
+
+        <TextView
+            android:id="@+id/w1"
+            style="@style/text_Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="λ1" />
+
+        <EditText
+            android:id="@+id/edt1"
+            style="@style/edt_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toEndOf="@id/w1"
+            android:minWidth="80dp"
+            android:padding="6dp" />
+
+        <TextView
+            android:id="@+id/txt1"
+            style="@style/text_Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp"
+            android:text="NA" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="8dp">
+
+        <TextView
+            android:id="@+id/w2"
+            style="@style/text_Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="40dp"
+            android:text="λ2" />
+
+        <EditText
+            android:id="@+id/edt2"
+            style="@style/edt_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_toEndOf="@id/w2"
+            android:minWidth="80dp"
+            android:padding="6dp" />
+
+        <TextView
+            android:id="@+id/txt2"
+            style="@style/text_Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp"
+            android:text="NA" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="8dp">
+
+        <TextView
+            android:id="@+id/w3"
+            style="@style/text_Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="40dp"
+            android:text="λ3" />
+
+        <EditText
+            android:id="@+id/edt3"
+            style="@style/edt_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_toEndOf="@id/w3"
+            android:minWidth="80dp"
+            android:padding="6dp" />
+
+        <TextView
+            android:id="@+id/txt3"
+            style="@style/text_Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp"
+            android:text="NA" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="8dp">
+
+        <TextView
+            android:id="@+id/w4"
+            style="@style/text_Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="40dp"
+            android:text="λ4" />
+
+        <EditText
+            android:id="@+id/edt4"
+            style="@style/edt_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_toEndOf="@id/w4"
+            android:minWidth="80dp"
+            android:padding="6dp" />
+
+        <TextView
+            android:id="@+id/txt4"
+            style="@style/text_Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp"
+            android:text="NA" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="8dp">
+
+        <TextView
+            android:id="@+id/w5"
+            style="@style/text_Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="40dp"
+            android:text="λ5" />
+
+        <EditText
+            android:id="@+id/edt5"
+            style="@style/edt_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_toEndOf="@id/w5"
+            android:minWidth="80dp"
+            android:padding="6dp" />
+
+        <TextView
+            android:id="@+id/txt5"
+            style="@style/text_Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp"
+            android:text="NA" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="8dp">
+
+        <TextView
+            android:id="@+id/w6"
+            style="@style/text_Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="40dp"
+            android:text="λ6" />
+
+        <EditText
+            android:id="@+id/edt6"
+            style="@style/edt_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_toEndOf="@id/w6"
+            android:minWidth="80dp"
+            android:padding="6dp" />
+
+        <TextView
+            android:id="@+id/txt6"
+            style="@style/text_Theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp"
+            android:text="NA" />
+    </RelativeLayout>
+
+</LinearLayout>

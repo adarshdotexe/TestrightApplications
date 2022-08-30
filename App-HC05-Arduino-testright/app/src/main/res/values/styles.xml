@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="text_Theme">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="edt_theme">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:inputType">number</item>
+        <item name="maxWidth">200dp</item>
+        <item name="android:background">@drawable/edt_bg</item>
+    </style>
+
+</resources>

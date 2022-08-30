@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/programName"
+        style="@style/TextAppearance.Material3.HeadlineSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nitrate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/editTextA"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_border_edittext"
+        android:ems="3"
+        android:gravity="center"
+        android:hint="a"
+        android:textAlignment="center"
+        android:inputType="number"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/programName" />
+
+    <EditText
+        android:id="@+id/editTextB"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/rounded_border_edittext"
+        android:ems="3"
+        android:gravity="center"
+        android:inputType="number"
+        android:hint="b"
+        app:layout_constraintStart_toEndOf="@id/editTextA"
+        app:layout_constraintTop_toTopOf="@id/editTextA" />
+
+    <EditText
+        android:id="@+id/editTextC"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/rounded_border_edittext"
+        android:ems="3"
+        android:gravity="center"
+        android:inputType="number"
+
+        android:hint="c"
+        app:layout_constraintStart_toEndOf="@id/editTextB"
+        app:layout_constraintTop_toTopOf="@id/editTextA" />
+
+    <EditText
+        android:id="@+id/editTextX"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/rounded_border_edittext"
+        android:ems="3"
+        android:inputType="number"
+
+        android:gravity="center"
+        android:hint="x"
+        app:layout_constraintStart_toEndOf="@id/editTextC"
+        app:layout_constraintTop_toTopOf="@id/editTextA" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
